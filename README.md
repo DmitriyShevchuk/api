@@ -20,6 +20,9 @@ choco install composer
 ```powershell
 choco install postman
 ``` 
+```powershell
+choco install openssl
+``` 
 
 ### Stage 3: Clone repository
 ```git
@@ -33,8 +36,16 @@ cd api
 ```powershell
 composer install
 ```
+```powershell
+composer require "lexik/jwt-authentication-bundle"
+```
 
-### Stage 5: Start server
+### Stage 5: Generate keys
+```powershell
+php bin/console lexik:jwt:generate-keypair
+```
+
+### Stage 6: Start server
 ```powershell
 symfony serve
 ```

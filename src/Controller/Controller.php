@@ -98,6 +98,7 @@ class Controller extends AbstractController
     }
 
     #[Route('/users/{id}', name: 'application_delete_users', methods: ['DELETE'])]
+    #[IsGranted("ROLE_ADMIN")]
     public function deleteItem(string $id): JsonResponse
     {
         $this->findUserById($id);
