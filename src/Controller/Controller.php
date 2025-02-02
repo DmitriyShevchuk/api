@@ -14,7 +14,6 @@ use Symfony\Component\Security\Http\Attribute\IsGranted;
 #[Route('/api/v1')]
 class Controller extends AbstractController
 {
-
     public const USERS_DATA = [
         [
             'id'    => '1',
@@ -105,7 +104,10 @@ class Controller extends AbstractController
 
         // TODO remove user from collection
 
-        return new JsonResponse([], Response::HTTP_NO_CONTENT);
+
+        return new JsonResponse([
+            'status' => "Item #$id has been deleted"
+        ], Response::HTTP_OK);
     }
 
     #[Route('/users/{id}', name: 'application_update_users', methods: ['PATCH'])]
