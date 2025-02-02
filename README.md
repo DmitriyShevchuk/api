@@ -48,7 +48,6 @@ symfony serve
 ❌ Error: Download windows 
 ```
 </details>
-&nbsp;
 
 # Documentation
 ❤️ [Click me](https://web.postman.co/documentation/41672010-f9e06b63-dc5b-45a0-a729-e8ab3ec572ae/publish?workspaceId=7c512977-b2ef-4bf0-8569-9c1e7382f215)
