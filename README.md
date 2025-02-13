@@ -50,4 +50,4 @@ symfony serve
 </details>
 
 # Documentation
-❤️ [Click me]([https://web.postman.co/documentation/41672010-f9e06b63-dc5b-45a0-a729-e8ab3ec572ae/publish?workspaceId=7c512977-b2ef-4bf0-8569-9c1e7382f215](https://documenter.getpostman.com/view/41672010/2sAYX3rNsi))
+❤️ [Click me](https://documenter.getpostman.com/view/41672010/2sAYX3rNsi)
